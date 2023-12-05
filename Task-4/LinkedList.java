@@ -1,12 +1,12 @@
 
 public class LinkedList {
     class Node {
+        int item;
+        Node nextNode;
         public Node(int item) {
             this.item = item;
         }
     }
-        int item;
-        Node nextNode;
         Node head;
         Node tail;
         int length = 0;
